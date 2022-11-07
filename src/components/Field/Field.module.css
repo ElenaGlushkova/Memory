@@ -1,0 +1,24 @@
+.field {
+    height: 100vh;
+    background-size: cover;
+    background-color: #CFD0CF;
+}
+
+.cards {
+    width: 624px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-family: Arial, sans-serif;
+    line-height: 50px;
+    text-align: center;
+    color: #443344;
+    margin: 0;
+    padding: 25px 0;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}

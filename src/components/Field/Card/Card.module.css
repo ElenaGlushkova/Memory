@@ -1,0 +1,31 @@
+.item {
+    width: 130px;
+    height: 130px;
+    border: white 5px solid;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 13px 26px 13px;
+}
+
+.item:active, .item:focus {
+    outline: none;
+}
+
+.close {
+    background: linear-gradient(to top right, #22AB93, #19668D);
+}
+
+.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.match {
+    visibility: hidden;
+}
+
+.image {
+    width: 90px;
+}
