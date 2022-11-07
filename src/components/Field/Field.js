@@ -10,6 +10,7 @@ const Field = (props) => {
             setTimeout(props.matchCards, 500)
         }
     });
+
     useEffect(() => {
         if (props.gameOver) {
             setTimeout(props.endGame, 1000)
